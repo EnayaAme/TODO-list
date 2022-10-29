@@ -5,29 +5,29 @@
   font-family: Lato, sans-serif;
 }
 
-.information {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.information__picture {
+.info__img {
   width: 100%;
 }
 
-.information__link {
+.info__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .information { text-align: center;
+  .info { text-align: center;
   }
 
 }
 
-.application {
+.app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -142,13 +142,13 @@ button{
   width: 226px;
 }
 
-.button__picture {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__picture:hover {
+.button__img:hover {
   transform: rotateZ(0);
 }
 
