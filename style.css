@@ -44,16 +44,16 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list__item, .h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input, button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -159,14 +159,14 @@ input, button{
 
 /* Edit Task */
 .list__item .list__task {
-  display:none
+  display: none
 }
 
 .list .edit-mode .list__task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list__item.edit-mode .list__label {
-  display:none;
+  display: none;
 }
