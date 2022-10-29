@@ -38,15 +38,15 @@ var createNewTaskElement=function(taskString){
 
     label.innerText=taskString;
     label.className='task';
-    label.classList.add('list__label')
+    label.classList.add('item__title')
 
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    checkBox.className="list__checkbox";
+    checkBox.className="item__checkbox";
     editInput.type="text";
     editInput.className="task";
-    editInput.classList.add('list__task')
+    editInput.classList.add('item__text')
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="button"; //
@@ -94,7 +94,7 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('.list__task');
+    var editInput=listItem.querySelector('.item__text');
     var label=listItem.querySelector("label");
     //var editBtn=listItem.querySelector(".edit");
     var editBtn=listItem.querySelector(".button_edit");
